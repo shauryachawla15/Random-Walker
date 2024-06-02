@@ -1,6 +1,7 @@
 # Random-Walker
 This is my Random Walker project, done in Java language. I built this when I was in my freshman year, in CSUS. It was a part of CSC-20 class( Programming Concepts and Methodology II).
- RandomWalker
+
+
 Write a class named RandomWalker following the good programming practices seen in class (test, document, conventional formatting, etc). I will give you a main program that creates and manipulates RandomWalkerobjects, but it won't work correctly unless you have written RandomWalker.
 A RandomWalker object should keep track of its (x, y) location. All walkers should start at the coordinates (0, 0) when created. When a walker is asked to move, it should randomly move exactly one unit either left, right, up or down (ie, adds +/- 1 to either its x or y value, but not both). Each of these four possible moves should occur with equal probability. When done repeatedly, the resulting behavior is known as a "random walk". (See an example at http://upload.wikimedia.org/wikipedia/commons/f/f3/Random_walk_2500_animated.svg (Links to an external site.))
 Each RandomWalker object should have the following public methods. You may add whatever private fields or methods you feel are necessary to implement these methods:
